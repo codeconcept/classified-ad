@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classified Ads</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div>
+      <h3>Créer une annonce</h3>
+      <form id="createad">
+        <input type="text" id="adtitle" placeholder="titre" /><br />
+        <select id="adcategory">
+          <option value="">----</option>
+          <option value="job">emploi</option>
+          <option value="rent">location</option>
+        </select>
+        <textarea id="adcontent" placeholder="content"></textarea><br />
+        <input type="file" id="adpicture" /><br />
+        <button type="submit">créer</button>
+      </form>
+    </div>
+  </body>
+</html>
